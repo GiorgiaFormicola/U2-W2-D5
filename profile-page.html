@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix clone - Profile page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body data-bs-theme="dark">
+    <header>
+      <!-- NAVBAR START -->
+      <nav class="navbar navbar-expand-lg px-1 px-md-2 px-lg-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.netflix.com/browse"
+            ><img
+              src="./assets/imgs/netflix_logo.png"
+              alt="Netflix Logo"
+              height="60rem
+            "
+          /></a>
+        </div>
+      </nav>
+      <!-- NAVBAR END -->
+    </header>
+
+    <main class="container mt-5 w-50">
+      <div class="row border-bottom border-bottom-1 mb-4">
+        <div class="col">
+          <h1>Edit Profile</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-4">
+          <img src="./assets/imgs/avatar.png" alt="" class="w-100" />
+        </div>
+        <div class="col">
+          <div class="row flex-column border-bottom border-bottom-1">
+            <div class="col">
+              <h2 class="bg-secondary fw-normal pt-2 pb-3 ps-3 mb-0">Strive student</h2>
+            </div>
+            <div class="col">
+              <p class="fs-4">Language:</p>
+              <!-- DROPDOWN START -->
+              <div class="btn-group">
+                <button type="button" class="btn btn-outline-light dropdown-toggle bg-black fs-2" data-bs-toggle="dropdown" aria-expanded="false">
+                  English<span class="px-4"></span>
+                </button>
+                <ul class="dropdown-menu w-100 fs-4">
+                  <li><button class="dropdown-item" type="button">Italian</button></li>
+                  <li><button class="dropdown-item" type="button">Spanish</button></li>
+                  <li><button class="dropdown-item" type="button">Japanese</button></li>
+                </ul>
+              </div>
+              <!-- DROPDOWN END -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
